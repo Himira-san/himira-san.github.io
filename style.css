@@ -1,0 +1,78 @@
+/* Базовые стили */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Стили для заголовка */
+header {
+    background: #5064f2;
+    color: #ffffff;
+    padding: 1em 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* Стили для навигации */
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #3b4ee8;
+    border-radius: 5px;
+}
+
+/* Стили для основного содержимого */
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+section:last-child {
+    border-bottom: none;
+}
+
+h2 {
+    color: #5064f2;
+    border-bottom: 2px solid #5064f2;
+    padding-bottom: 5px;
+}
+
+/* Стили для списка */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* Стили для подвала */
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background: #333;
+    color: #ffffff;
+    margin-top: 20px;
+}
